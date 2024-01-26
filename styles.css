@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: white;
   background-color: rgb(22, 0, 42);
-  padding: 40px 0;
+  padding: 40px 2%;
 }
 
 span {
@@ -30,32 +30,29 @@ span {
 }
 
 .hero {
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
+  margin-top: 30px;
 }
 
 .hero-content p {
   font-size: 22px;
   line-height: 38px;
-  max-width: 600px; 
-  text-align: left;
+  text-align: center;
 }
 
 .hero-content button {
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 12px;
-  padding: 16px 24px;
+  padding: 16px 8px;
+  line-height: 28px;
   border: none;
   outline: none;
-  width: 100%;
+  width: 70%;
   cursor: pointer;
-  background-color: #fa2af6;
+  background-color: #008000;
   color: white;
   text-transform: uppercase;
   font-size: 18px;
@@ -63,11 +60,22 @@ span {
 }
 
 .hero-content button:hover {
-  background-color: #d414d1;
+  background-color: #016001;
 }
 
-.hero-content img {
-  width: 300px;
+.hero {
+  text-align: center;
+}
+
+.hero > p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hero img {
+  margin-top: 30px;
+  width: 65%;
+  border-radius: 8px;
 }
 
 .main {
@@ -84,7 +92,54 @@ span {
   max-width: 800px;
   margin: 24px auto 0 auto;
   font-size: 18px;
+  max-width: 700px;
 }
+
+.dor {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.dor h1 {
+  font-size: 32px;
+  line-height: 48px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dor-text {
+  margin-top: 40px;
+}
+
+.dor-text p {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.problem {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.problem h1 {
+  font-size: 22px;
+}
+
+.problem p {
+  line-height: 28px;
+  max-width: 800px;
+  margin: 24px auto 0 auto;
+  font-size: 18px;
+}
+
+.problem img {
+  margin-top: 30px;
+  width: 65%;
+  border-radius: 8px;
+}
+
 
 .main img {
   margin-top: -200px;
@@ -99,11 +154,8 @@ span {
 
 .depoiments h1 {
   font-size: 32px;
-}
-
-.depoiments p {
-  max-width: 550px;
-  margin: 24px auto 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .depoiments-img {
@@ -122,6 +174,7 @@ span {
 
 .depoiment img {
   max-width: 450px;
+  border-radius: 8px;
 }
 
 .faq {
@@ -158,6 +211,141 @@ span {
   line-height: 24px;
 }
 
+.about {
+  margin-top: 80px;
+}
+
+.about h1 {
+  font-size: 32px;
+  line-height: 48px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
+.about-text > p {
+  line-height: 28px;
+  max-width: 500px;
+  margin: 14px auto 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.diferentials {
+  margin: 40px auto 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  max-width: 700px;
+}
+
+.diferentials-cta {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.diferentials-cta button {
+  margin-top: 25px;
+  border-radius: 12px;
+  padding: 16px 8px;
+  line-height: 28px;
+  border: none;
+  outline: none;
+  width: 70%;
+  cursor: pointer;
+  background-color: #008000;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bonus {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.bonus h1 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.bonus-content {
+  margin: 40px auto 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  max-width: 700px;
+}
+
+.price {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.price h1 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.price p {
+  margin-top: 12px;
+}
+
+.price-value {
+  margin-top: 50px;
+}
+
+.price-value > p {
+  font-size: 18px;
+}
+
+.price-value p > span {
+  font-size: 42px;
+  color: red;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+
+.price-value .value {
+  margin-top: 30px;
+}
+
+.price-value .value p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price-value .value h2 {
+  margin-top: 5px;
+  font-size: 52px;
+  color: rgb(6, 255, 6);
+}
+
+.recapt {
+  margin: 40px auto 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  max-width: 700px;
+}
+
 @media(max-width: 1024px){
   .main img {
     margin-top: -150px;
@@ -171,6 +359,10 @@ span {
 }
 
 @media(max-width: 768px){
+  button { 
+    width: 100% !important;
+  }
+
   h1 {
     font-size: 26px !important;
     line-height: 34px;
@@ -180,26 +372,13 @@ span {
     font-size: 22px !important;
   }
 
-  .hero {
-    margin-top: 40px;
+  .hero > p {
+    font-size: 16px;
   }
 
-  .hero-content {
-    flex-direction: column;
-    gap: 40px;
-  }
 
-  .hero-content > div {
-    order: 2;
-  }
-
-  .hero-content p {
-    text-align: center;
-  }
-
-  .hero-content img {
-    order: 1;
-    width: 80%;
+  .hero img {
+    width: 100%;
   }
 
   .main img {
@@ -207,6 +386,11 @@ span {
     margin-left: -50px;
     width: 100%;
   }
+
+  .problem img {
+    width: 100%;
+  }
+
 
   .depoiments {
     margin-top: 70px;
