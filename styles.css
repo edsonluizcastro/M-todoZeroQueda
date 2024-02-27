@@ -439,6 +439,10 @@ span {
   .depoiment img {
     max-width: 300px;
   }
+  iframe {
+    max-width: 100%;
+    min-height: 270px;
+  }
 }
 
 @media(max-width: 768px){
