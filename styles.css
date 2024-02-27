@@ -508,6 +508,16 @@ span {
   .garantia-descricao p {
     text-align: center;
   }
+  iframe {
+    max-height: 350px;
+  }
+}
+
+@media(max-width: 425px){
+  
+  iframe {
+    height: 200px !important;
+  }
 }
 
 @media(max-width: 375px){
@@ -515,4 +525,5 @@ span {
     margin-top: -35px;
     margin-left: 0px;
   }
+  
 }
