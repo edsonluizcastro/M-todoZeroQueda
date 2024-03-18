@@ -336,19 +336,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
   
-        <script>
+        <div class="faq-cta">
+          <a href="https://pay.kirvano.com/f2522758-36ff-44ed-bd37-8d085c442ab7" target="_blank">
+            <button id="button7" onclick="delayAction('https://pay.kirvano.com/f2522758-36ff-44ed-bd37-8d085c442ab7')">
+              Quero Acabar Com a minha Queda de Cabelo
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
     function delayAction(url) {
-      // Define o atraso em milissegundos (9 minutos = 9 * 60 * 1000)
-      const delay = 9 * 60 * 1000;
-
-      // Desabilita o botão para evitar cliques repetidos enquanto o atraso está ocorrendo
-      // document.getElementById("button").disabled = true;
-
-      // Aguarda o tempo especificado antes de redirecionar para a URL
-      setTimeout(function() {
+      setTimeout(function () {
         window.location.href = url;
-      }, delay);
+      }, 60000); // 1 minute delay
     }
   </script>
 </body>
+
 </html>
