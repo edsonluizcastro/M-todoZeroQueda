@@ -54,12 +54,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="hero-content">
         <a href="https://pay.kirvano.com/f2522758-36ff-44ed-bd37-8d085c442ab7" target="_blank">
-          <button>
-            Quero Acabar Com a minha Queda de Cabelo
-          </button>
+          <button id="delayButton" onclick="disableButton()">Quero Acabar Com a minha Queda de Cabelo</button>
         </a>
       </div>
     </section>
+
+    <script>
+      function disableButton() {
+        var button = document.getElementById('delayButton');
+        button.disabled = true; // Desabilita o botão para evitar cliques repetidos
+        setTimeout(function() {
+          button.disabled = false; // Habilita o botão após 1 minuto (60000 milissegundos)
+        }, 60000);
+      }
+    </script>
+  </div>
+</body>
 
     <section class="depoiments">
       <h1>
