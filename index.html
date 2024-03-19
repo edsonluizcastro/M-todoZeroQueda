@@ -9,6 +9,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WJ6VB67B');</script>
 <!-- End Google Tag Manager -->
+  curl -X POST \
+  --form-string 'data=[{"action_source":"website","event_name":"Purchase","event_time":1710885107,"custom_data":{"currency":"USD","value":142.52},"user_data":{"em":["7b17fb0bd173f625b58636fb796407c22b3d16fc78302d79f0fd30c2fc2fc068"],"ph":[]}}]'\
+  -F 'access_token=<ACCESS_TOKEN>' \
+  https://graph.facebook.com/<API_VERSION>/<PIXEL_ID>/events
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=778789294154893&ev=PageView&noscript=1" /></noscript>
