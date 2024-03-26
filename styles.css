@@ -12,7 +12,7 @@
 #bonus {display: none;}
 #main {display: none;}
 #price {display: none;}
-.garantia {display: none;}
+.garantia {display: none !important;}
 
 body {
   width: 100%;
